@@ -5,12 +5,19 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
+    "email-validator>=2.2.0",
     "google-generativeai>=0.8.5",
+    "groq>=0.24.0",
     "huggingface-hub>=0.31.2",
     "langchain>=0.3.25",
     "langchain-anthropic>=0.3.13",
+    "langchain-community>=0.3.24",
+    "langchain-google-genai>=2.0.10",
+    "langchain-groq>=0.3.2",
     "langchain-huggingface>=0.2.0",
     "langchain-openai>=0.3.17",
+    "pydantic>=2.11.4",
     "python-dotenv>=1.1.0",
+    "streamlit>=1.45.1",
     "transformers>=4.51.3",
 ]
