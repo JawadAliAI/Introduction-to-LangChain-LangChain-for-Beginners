@@ -24,7 +24,7 @@ docs = loader.load()
 chain = prompt | model | parser
 
 result = chain.invoke({
-    'Question': 'what is media click lab',  # capital Q to match prompt
+    'Question': 'what is Customer experiences',  # capital Q to match prompt
     'text': docs[0].page_content
 })
 
